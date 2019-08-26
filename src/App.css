@@ -1,0 +1,42 @@
+* {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: darkslategrey;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin: 10px auto 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+  .App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: cover;
+    height: auto;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 5px;
+  }
+}

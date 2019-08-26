@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "the-eyes-roller",
+    "prod": "the-eyes-roller"
+  }
+}
