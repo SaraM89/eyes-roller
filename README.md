@@ -1,3 +1,22 @@
+# The Eyes Roller
+
+This tech test was given to me as first test after being introduced to React on the \_nology tech conversion course.
+The test was focused on practising how to pass props to a component and how to behave on HTML and CSS.
+
+## Description
+
+Make an app that shows the face numerous times. The eyes on the face should be independent images. Each face can be told what angle the eyes should be at. When the face is clicked on, the eyes should rotate to the angle set, when clicked again they go back to the default angle. Images to be used are below.
+
+## Requirements
+
+Create a new react app using create-react-app
+Host this application on firebase
+Use your custom domain name e.g face.saramurgololololo.co.uk
+Have a face component that can be reused and takes in props to set the angle of the eyes
+When the face is clicked make the eyes turn to the set position. When clicked again they return to the default position.
+
+Visit it live: https://eyes-roller.saramurgolo.co.uk/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
